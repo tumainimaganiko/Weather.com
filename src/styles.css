@@ -1,3 +1,46 @@
 body {
     background-color: bisque;
+    margin: 0;
+}
+
+header {
+    background-color: #005985;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header img {
+    width: 60px;
+    height: 60px;
+}
+
+.left-header {
+    padding: 10px;
+}
+
+.right-header {
+    padding-right:5px;
+}
+
+.middle-header {
+    width: 60%;
+}
+
+input[type='search'] {
+    background-color: #2991c5;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+input[type='search']::placeholder {
+    color: #fff;
+    text-align: center;
+
+}
+
+.fa-bars {
+    font-size: 25px;
+    color: #fff;
 }
