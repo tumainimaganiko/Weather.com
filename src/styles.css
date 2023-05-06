@@ -77,3 +77,33 @@ nav a {
     font-size: 32px;
     color: #fff;
 }
+
+.upper {
+    padding: 1px;
+    border-bottom: 1px solid white;
+    background-color: black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    opacity: .6;
+}
+
+.details {
+    margin: 10px;
+    background-image: url('./images/cloud.jpg');
+    background-size: cover;
+    color: #fff;
+    border-radius: 8px;
+}
+.lower {
+    padding: 10px;
+}
+
+.lower p {
+    margin: 0;
+    font-weight: 900;
+}
+
+.degree {
+    font-size: 32px;
+    font-weight: 700;
+}
