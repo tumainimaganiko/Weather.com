@@ -1,5 +1,4 @@
 body {
-    background-color: bisque;
     margin: 0;
 }
 
@@ -37,10 +36,44 @@ input[type='search'] {
 input[type='search']::placeholder {
     color: #fff;
     text-align: center;
-
 }
 
 .fa-bars {
     font-size: 25px;
+    color: #fff;
+}
+
+#empty {
+    height: 40px;
+    background-color: #2991c5;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #063650;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 5px;
+}
+
+nav ul li:hover {
+    border-bottom: 1px solid #fff;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.fa-sort-down {
+    font-size: 32px;
     color: #fff;
 }
