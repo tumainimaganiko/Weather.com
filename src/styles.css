@@ -1,4 +1,5 @@
 body {
+    background-color: #2991c5;
     margin: 0;
 }
 
@@ -87,12 +88,15 @@ nav a {
     opacity: .6;
 }
 
-.details {
+main {
     margin: 10px;
+}
+.details {
     background-image: url('./images/cloud.jpg');
     background-size: cover;
     color: #fff;
     border-radius: 8px;
+    margin-bottom: 10px;
 }
 .lower {
     padding: 10px;
@@ -106,4 +110,46 @@ nav a {
 .degree {
     font-size: 32px;
     font-weight: 700;
+}
+
+.forecast {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+.forecast h3 {
+    margin: 10px;
+    font-weight: 900;
+}
+
+.forecast ul {
+    list-style-type: none;
+    display: inline-flex;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.forecast ul li {
+    margin: 0;
+}
+
+.forecast a {
+    padding: 4px 30px;
+    color: #1b4de4;
+    text-decoration: none;
+    display: block;
+}
+
+.forecast a:hover {
+    background-color: blue;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 12px;
 }
